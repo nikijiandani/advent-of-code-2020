@@ -1,5 +1,7 @@
 const fs = require("fs");
 
+// PROBLEM: Find the two entries that sum to 2020; what do you get if you multiply them together?
+
 fs.readFile("./input.txt", "utf8", (err, data) => {
   if (err) {
     console.log(err);
